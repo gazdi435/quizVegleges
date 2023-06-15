@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legyen ön is Egyetemista!</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="felirat">
+        <h1>Legyen ön is Egyetemista!</h1>
+    </div>
+
+    <div id="mainDiv">
+        <p id="elsoHint" class="szoveg" onclick="reveal(this.id)">Első hint</p>
+        <p id="masodikHint" class="szoveg" onclick="reveal(this.id)">Második hint</p>
+        <p id="harmadikHint" class="szoveg" onclick="reveal(this.id)">Harmadik hint</p>
+        <h2 id="megoldas" class="szoveg" onclick="reveal(this.id)">Tanár</h2>
+    </div>
+
+    <div id="buttonDiv">
+        <button type="button" onclick="jatek()">Következő</button>
+    </div>
+</body>
+</html>
